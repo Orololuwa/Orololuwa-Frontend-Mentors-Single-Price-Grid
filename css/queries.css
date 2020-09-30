@@ -1,0 +1,21 @@
+@media only screen and (max-width: 375px) {
+    figure {
+        width: 90%;
+        flex-flow: column;
+    }
+
+    .headline {
+        height: auto;
+    }
+
+    .sub {
+        flex-basis: 100%;
+        border-bottom: none;
+    }
+
+    .properties {
+        flex-basis: 100%;
+        border-top: none;
+    }
+
+}
